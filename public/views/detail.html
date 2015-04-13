@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <div class="media">
+        <div class="pull-left">
+          <img class="media-object img-rounded" ng-src="{{show.poster}}">
+          <div class="text-center" ng-if="currentUser">
+            </div>
+        
+          </div>
+        
+        </div>
+        <div class="media-body">
+          <h2 class="media-heading">
+            Song :{{show.name}}
+            <h4>Album :{{show.album}}</h4>
+            <h4>Artist :{{show.artist}}</h4>
+          </h2>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <span class="ion-film-marker"></span> Details:
+    </div>
+    <div class="panel-body">
+    
+          <p>{{show.overview}}</p>
+    </div>
+  </div>
+</div>

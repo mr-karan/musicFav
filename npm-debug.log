@@ -1,0 +1,298 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'express-session',
+1 verbose cli   'passport',
+1 verbose cli   'passport-local' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'express-session', null ]
+7 verbose cache add name=undefined spec="express-session" args=["express-session",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'express-session',
+8 verbose parsed url   path: 'express-session',
+8 verbose parsed url   href: 'express-session' }
+9 verbose cache add [ 'passport', null ]
+10 verbose cache add name=undefined spec="passport" args=["passport",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'passport',
+11 verbose parsed url   path: 'passport',
+11 verbose parsed url   href: 'passport' }
+12 verbose cache add [ 'passport-local', null ]
+13 verbose cache add name=undefined spec="passport-local" args=["passport-local",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'passport-local',
+14 verbose parsed url   path: 'passport-local',
+14 verbose parsed url   href: 'passport-local' }
+15 silly lockFile 6ca9c35e-express-session express-session
+16 verbose lock express-session /home/karan/.npm/6ca9c35e-express-session.lock
+17 silly lockFile a3404013-passport passport
+18 verbose lock passport /home/karan/.npm/a3404013-passport.lock
+19 silly lockFile defa4f15-passport-local passport-local
+20 verbose lock passport-local /home/karan/.npm/defa4f15-passport-local.lock
+21 silly lockFile 6ca9c35e-express-session express-session
+22 silly lockFile 6ca9c35e-express-session express-session
+23 silly lockFile a3404013-passport passport
+24 silly lockFile a3404013-passport passport
+25 verbose addNamed [ 'express-session', '' ]
+26 verbose addNamed [ null, '*' ]
+27 silly lockFile 03cac062-express-session express-session@
+28 verbose lock express-session@ /home/karan/.npm/03cac062-express-session.lock
+29 verbose addNamed [ 'passport', '' ]
+30 verbose addNamed [ null, '*' ]
+31 silly lockFile d5a254c4-passport passport@
+32 verbose lock passport@ /home/karan/.npm/d5a254c4-passport.lock
+33 silly lockFile defa4f15-passport-local passport-local
+34 silly lockFile defa4f15-passport-local passport-local
+35 silly addNameRange { name: 'express-session', range: '*', hasData: false }
+36 verbose addNamed [ 'passport-local', '' ]
+37 verbose addNamed [ null, '*' ]
+38 silly lockFile 20688a51-passport-local passport-local@
+39 verbose lock passport-local@ /home/karan/.npm/20688a51-passport-local.lock
+40 silly addNameRange { name: 'passport', range: '*', hasData: false }
+41 silly addNameRange { name: 'passport-local', range: '*', hasData: false }
+42 verbose request where is /passport
+43 verbose request registry https://registry.npmjs.org/
+44 verbose request id 65a33f8673290ede
+45 verbose url raw /passport
+46 verbose url resolving [ 'https://registry.npmjs.org/', './passport' ]
+47 verbose url resolved https://registry.npmjs.org/passport
+48 verbose request where is https://registry.npmjs.org/passport
+49 info trying registry request attempt 1 at 22:08:57
+50 http GET https://registry.npmjs.org/passport
+51 verbose request where is /passport-local
+52 verbose request registry https://registry.npmjs.org/
+53 verbose url raw /passport-local
+54 verbose url resolving [ 'https://registry.npmjs.org/', './passport-local' ]
+55 verbose url resolved https://registry.npmjs.org/passport-local
+56 verbose request where is https://registry.npmjs.org/passport-local
+57 info trying registry request attempt 1 at 22:08:57
+58 http GET https://registry.npmjs.org/passport-local
+59 verbose request where is /express-session
+60 verbose request registry https://registry.npmjs.org/
+61 verbose url raw /express-session
+62 verbose url resolving [ 'https://registry.npmjs.org/', './express-session' ]
+63 verbose url resolved https://registry.npmjs.org/express-session
+64 verbose request where is https://registry.npmjs.org/express-session
+65 info trying registry request attempt 1 at 22:08:57
+66 verbose etag "2RJS7MBMRMYQLERH2TT21407P"
+67 http GET https://registry.npmjs.org/express-session
+68 http 200 https://registry.npmjs.org/express-session
+69 silly registry.get cb [ 200,
+69 silly registry.get   { date: 'Sat, 11 Apr 2015 16:38:58 GMT',
+69 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+69 silly registry.get     etag: '"B4KPM12S8J976Q2DNTSEBVGF0"',
+69 silly registry.get     'content-type': 'application/json',
+69 silly registry.get     'cache-control': 'max-age=60',
+69 silly registry.get     'content-length': '80094',
+69 silly registry.get     'accept-ranges': 'bytes',
+69 silly registry.get     via: '1.1 varnish',
+69 silly registry.get     age: '10',
+69 silly registry.get     'x-served-by': 'cache-fra1225-FRA',
+69 silly registry.get     'x-cache': 'HIT',
+69 silly registry.get     'x-cache-hits': '1',
+69 silly registry.get     'x-timer': 'S1428770338.571057,VS0,VE0',
+69 silly registry.get     vary: 'Accept',
+69 silly registry.get     'keep-alive': 'timeout=10, max=50',
+69 silly registry.get     connection: 'Keep-Alive' } ]
+70 silly addNameRange number 2 { name: 'express-session', range: '*', hasData: true }
+71 silly addNameRange versions [ 'express-session',
+71 silly addNameRange   [ '1.0.0',
+71 silly addNameRange     '1.0.1',
+71 silly addNameRange     '1.0.2',
+71 silly addNameRange     '1.0.3',
+71 silly addNameRange     '1.0.4',
+71 silly addNameRange     '1.1.0',
+71 silly addNameRange     '1.2.0',
+71 silly addNameRange     '1.2.1',
+71 silly addNameRange     '1.3.0',
+71 silly addNameRange     '1.3.1',
+71 silly addNameRange     '1.4.0',
+71 silly addNameRange     '1.5.0',
+71 silly addNameRange     '1.5.1',
+71 silly addNameRange     '1.5.2',
+71 silly addNameRange     '1.6.0',
+71 silly addNameRange     '1.6.1',
+71 silly addNameRange     '1.6.2',
+71 silly addNameRange     '1.6.3',
+71 silly addNameRange     '1.6.4',
+71 silly addNameRange     '1.6.5',
+71 silly addNameRange     '1.7.0',
+71 silly addNameRange     '1.7.1',
+71 silly addNameRange     '1.7.2',
+71 silly addNameRange     '1.7.3',
+71 silly addNameRange     '1.7.4',
+71 silly addNameRange     '1.7.5',
+71 silly addNameRange     '1.7.6',
+71 silly addNameRange     '1.8.0',
+71 silly addNameRange     '1.8.1',
+71 silly addNameRange     '1.8.2',
+71 silly addNameRange     '1.9.0',
+71 silly addNameRange     '1.9.1',
+71 silly addNameRange     '1.9.2',
+71 silly addNameRange     '1.9.3',
+71 silly addNameRange     '1.10.0',
+71 silly addNameRange     '1.10.1',
+71 silly addNameRange     '1.10.2',
+71 silly addNameRange     '1.10.3',
+71 silly addNameRange     '1.10.4',
+71 silly addNameRange     '1.11.0',
+71 silly addNameRange     '1.11.1' ] ]
+72 verbose addNamed [ 'express-session', '1.11.1' ]
+73 verbose addNamed [ '1.11.1', '1.11.1' ]
+74 silly lockFile f1392ca6-express-session-1-11-1 express-session@1.11.1
+75 verbose lock express-session@1.11.1 /home/karan/.npm/f1392ca6-express-session-1-11-1.lock
+76 http 200 https://registry.npmjs.org/passport-local
+77 silly registry.get cb [ 200,
+77 silly registry.get   { date: 'Sat, 11 Apr 2015 16:38:59 GMT',
+77 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+77 silly registry.get     etag: '"5H8TDFMZZ2YXVY6QN94HZVHDE"',
+77 silly registry.get     'content-type': 'application/json',
+77 silly registry.get     'cache-control': 'max-age=60',
+77 silly registry.get     'content-length': '13302',
+77 silly registry.get     'accept-ranges': 'bytes',
+77 silly registry.get     via: '1.1 varnish',
+77 silly registry.get     age: '0',
+77 silly registry.get     'x-served-by': 'cache-fra1238-FRA',
+77 silly registry.get     'x-cache': 'HIT',
+77 silly registry.get     'x-cache-hits': '1',
+77 silly registry.get     'x-timer': 'S1428770338.528564,VS0,VE671',
+77 silly registry.get     vary: 'Accept',
+77 silly registry.get     'keep-alive': 'timeout=10, max=50',
+77 silly registry.get     connection: 'Keep-Alive' } ]
+78 silly addNameRange number 2 { name: 'passport-local', range: '*', hasData: true }
+79 silly addNameRange versions [ 'passport-local',
+79 silly addNameRange   [ '0.1.0',
+79 silly addNameRange     '0.1.1',
+79 silly addNameRange     '0.1.2',
+79 silly addNameRange     '0.1.3',
+79 silly addNameRange     '0.1.4',
+79 silly addNameRange     '0.1.5',
+79 silly addNameRange     '0.1.6',
+79 silly addNameRange     '1.0.0' ] ]
+80 verbose addNamed [ 'passport-local', '1.0.0' ]
+81 verbose addNamed [ '1.0.0', '1.0.0' ]
+82 silly lockFile 8defd22e-passport-local-1-0-0 passport-local@1.0.0
+83 verbose lock passport-local@1.0.0 /home/karan/.npm/8defd22e-passport-local-1-0-0.lock
+84 silly lockFile 4bf3bb31-t-local-passport-local-1-0-0-tgz https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz
+85 verbose lock https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz /home/karan/.npm/4bf3bb31-t-local-passport-local-1-0-0-tgz.lock
+86 verbose addRemoteTarball [ 'https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz',
+86 verbose addRemoteTarball   '1fe63268c92e75606626437e3b906662c15ba6ee' ]
+87 silly lockFile 68c3999e-ssion-express-session-1-11-1-tgz https://registry.npmjs.org/express-session/-/express-session-1.11.1.tgz
+88 verbose lock https://registry.npmjs.org/express-session/-/express-session-1.11.1.tgz /home/karan/.npm/68c3999e-ssion-express-session-1-11-1-tgz.lock
+89 verbose addRemoteTarball [ 'https://registry.npmjs.org/express-session/-/express-session-1.11.1.tgz',
+89 verbose addRemoteTarball   '607eb9458e9e98c1ab576e3408f5c8d9019fe633' ]
+90 info retry fetch attempt 1 at 22:08:59
+91 verbose fetch to= /tmp/npm-25614-g7wKjBBr/registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz
+92 http GET https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz
+93 info retry fetch attempt 1 at 22:08:59
+94 verbose fetch to= /tmp/npm-25614-g7wKjBBr/registry.npmjs.org/express-session/-/express-session-1.11.1.tgz
+95 http GET https://registry.npmjs.org/express-session/-/express-session-1.11.1.tgz
+96 http 200 https://registry.npmjs.org/passport
+97 silly registry.get cb [ 200,
+97 silly registry.get   { date: 'Sat, 11 Apr 2015 16:38:59 GMT',
+97 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+97 silly registry.get     etag: '"7C9768L2JL94AX5UGY08MN6DH"',
+97 silly registry.get     'content-type': 'application/json',
+97 silly registry.get     'cache-control': 'max-age=60',
+97 silly registry.get     'content-length': '34041',
+97 silly registry.get     'accept-ranges': 'bytes',
+97 silly registry.get     via: '1.1 varnish',
+97 silly registry.get     age: '0',
+97 silly registry.get     'x-served-by': 'cache-fra1220-FRA',
+97 silly registry.get     'x-cache': 'HIT',
+97 silly registry.get     'x-cache-hits': '1',
+97 silly registry.get     'x-timer': 'S1428770338.548150,VS0,VE697',
+97 silly registry.get     vary: 'Accept',
+97 silly registry.get     'keep-alive': 'timeout=10, max=50',
+97 silly registry.get     connection: 'Keep-Alive' } ]
+98 silly addNameRange number 2 { name: 'passport', range: '*', hasData: true }
+99 silly addNameRange versions [ 'passport',
+99 silly addNameRange   [ '0.1.0',
+99 silly addNameRange     '0.1.1',
+99 silly addNameRange     '0.1.2',
+99 silly addNameRange     '0.1.3',
+99 silly addNameRange     '0.1.4',
+99 silly addNameRange     '0.1.5',
+99 silly addNameRange     '0.1.6',
+99 silly addNameRange     '0.1.7',
+99 silly addNameRange     '0.1.8',
+99 silly addNameRange     '0.1.9',
+99 silly addNameRange     '0.1.10',
+99 silly addNameRange     '0.1.11',
+99 silly addNameRange     '0.1.12',
+99 silly addNameRange     '0.1.13',
+99 silly addNameRange     '0.1.14',
+99 silly addNameRange     '0.1.15',
+99 silly addNameRange     '0.1.16',
+99 silly addNameRange     '0.1.17',
+99 silly addNameRange     '0.1.18',
+99 silly addNameRange     '0.2.0',
+99 silly addNameRange     '0.2.1' ] ]
+100 verbose addNamed [ 'passport', '0.2.1' ]
+101 verbose addNamed [ '0.2.1', '0.2.1' ]
+102 silly lockFile b563cf22-passport-0-2-1 passport@0.2.1
+103 verbose lock passport@0.2.1 /home/karan/.npm/b563cf22-passport-0-2-1.lock
+104 silly lockFile b563cf22-passport-0-2-1 passport@0.2.1
+105 silly lockFile b563cf22-passport-0-2-1 passport@0.2.1
+106 silly lockFile d5a254c4-passport passport@
+107 silly lockFile d5a254c4-passport passport@
+108 http 200 https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz
+109 silly lockFile 4bf3bb31-t-local-passport-local-1-0-0-tgz https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz
+110 silly lockFile 4bf3bb31-t-local-passport-local-1-0-0-tgz https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz
+111 silly lockFile 8defd22e-passport-local-1-0-0 passport-local@1.0.0
+112 silly lockFile 8defd22e-passport-local-1-0-0 passport-local@1.0.0
+113 silly lockFile 20688a51-passport-local passport-local@
+114 silly lockFile 20688a51-passport-local passport-local@
+115 http 200 https://registry.npmjs.org/express-session/-/express-session-1.11.1.tgz
+116 silly lockFile 68c3999e-ssion-express-session-1-11-1-tgz https://registry.npmjs.org/express-session/-/express-session-1.11.1.tgz
+117 silly lockFile 68c3999e-ssion-express-session-1-11-1-tgz https://registry.npmjs.org/express-session/-/express-session-1.11.1.tgz
+118 silly lockFile f1392ca6-express-session-1-11-1 express-session@1.11.1
+119 silly lockFile f1392ca6-express-session-1-11-1 express-session@1.11.1
+120 silly lockFile 03cac062-express-session express-session@
+121 silly lockFile 03cac062-express-session express-session@
+122 error Error: EACCES, mkdir '/home/karan/.npm/express-session/1.11.1'
+122 error  { [Error: EACCES, mkdir '/home/karan/.npm/express-session/1.11.1']
+122 error   errno: 3,
+122 error   code: 'EACCES',
+122 error   path: '/home/karan/.npm/express-session/1.11.1',
+122 error   parent: 'showapp' }
+123 error Please try running this command again as root/Administrator.
+124 error System Linux 3.13.0-49-generic
+125 error command "/usr/bin/node" "/usr/bin/npm" "install" "--save" "express-session" "passport" "passport-local"
+126 error cwd /home/karan/work/musicFav
+127 error node -v v0.10.37
+128 error npm -v 1.4.28
+129 error path /home/karan/.npm/express-session/1.11.1
+130 error code EACCES
+131 error errno 3
+132 error stack Error: EACCES, mkdir '/home/karan/.npm/express-session/1.11.1'
+133 verbose exit [ 3, true ]
