@@ -8,3 +8,5 @@ TODO
 Add Login Feature
 Add Song search method
 Add a Data Visualization Library
+Change the UI
+Deploy to PhoneGap
