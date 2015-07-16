@@ -5,8 +5,8 @@ Adds songs from Last.fm API and stores to the database (MongoDB)
 
 TODO
 
-Add Login Feature
-Add Song search method
-Add a Data Visualization Library
-Change the UI
-Deploy to PhoneGap
+Add Login Feature <br/>
+Add Song search method  <br/>
+Add a Data Visualization Library  <br/>
+Change the UI <br/>
+Deploy to PhoneGap  <br/>
